@@ -1,5 +1,7 @@
 var swiper = new Swiper(".mySwiper", {
     cssMode: true,
+    // slidesPerView: 1.5,
+    // spaceBetween: 0,
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
@@ -38,3 +40,17 @@ var swiper = new Swiper(".mySwiper", {
 //   asos2k.style.transform = 'translateY(-342px)'
 //   asos2k.style.transition = '0.5s'
 // })
+var swiper = new Swiper(".miSwiper", {
+  cssMode: true,
+  slidesPerView: 7.1757,
+  spaceBetween: 0,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  pagination: {
+    el: ".swiper-pagination",
+  },
+  mousewheel: true,
+  keyboard: true,
+});
