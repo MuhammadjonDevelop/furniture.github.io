@@ -54,3 +54,18 @@ var swiper = new Swiper(".miSwiper", {
   mousewheel: true,
   keyboard: true,
 });
+
+window.addEventListener("scroll", function () {
+  let header = document.querySelector("nav")
+  header.classList.toggle("sticky", window.scrollY > 0)
+})
+
+// let check = document.querySelector(".theme__toggle")
+// check.onclick = function() {
+//     let theme = document.getElementById('bosh')
+//     if (theme.getAttribute('href') == 'portfolio.css') {
+//         theme.href = 'oq.css';
+//     }else {
+//         theme.href = 'portfolio.css';
+//     }
+// }

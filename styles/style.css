@@ -14,17 +14,24 @@ header{
     height: 100%;
 }
 nav{
+    margin: -60px auto;
+    padding: 0 9.5% 0 9.5%;
+    transition: 0.3s;
+    position: fixed;
+    
+    width: 100%;
+    z-index: 1000;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    width: 80%;
-    margin: auto;
-    padding: 25px 0 0 0;
+    align-items: center;
+    transition: 0.3s;
 }
 nav ul {
     display: flex;
     width: 434px;
+    align-items: center;
     justify-content: space-between;
+    margin: auto;
 }
 nav ul li a{
     font-family: 'Open Sans', sans-serif;
@@ -123,6 +130,23 @@ nav ul li a{
 
 
 
+
+
+
+.sticky {
+    padding: 10px 100px;
+    background: #222;
+}
+.sticky ul li a {
+    color: #afb5c8;
+}
+.sticky .logo {
+    color: #cbccce;
+}
+
+.sticky .images i {
+    color: white;
+}
 
 
 
@@ -660,7 +684,7 @@ nav ul li a{
     background: #FBF9F3;
 }
 .hover1 {
-    transition: 0.5s;
+    transition: 0.3s;
     width: 100%;
     height: 100%;
 }
